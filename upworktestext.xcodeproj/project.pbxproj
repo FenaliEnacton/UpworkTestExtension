@@ -1,0 +1,975 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB28FAF2AE2489100035A97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB28FAE2AE2489100035A97 /* AppDelegate.swift */; };
+		CAB28FB12AE2489100035A97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB28FB02AE2489100035A97 /* SceneDelegate.swift */; };
+		CAB28FB42AE2489100035A97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FB22AE2489100035A97 /* LaunchScreen.storyboard */; };
+		CAB28FB72AE2489100035A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FB52AE2489100035A97 /* Main.storyboard */; };
+		CAB28FC02AE2489100035A97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB28FBF2AE2489100035A97 /* AppDelegate.swift */; };
+		CAB28FC32AE2489100035A97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FC12AE2489100035A97 /* Main.storyboard */; };
+		CAB28FCB2AE2489100035A97 /* upworktestext Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CAB28FCA2AE2489100035A97 /* upworktestext Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CAB28FD52AE2489100035A97 /* upworktestext Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CAB28FD42AE2489100035A97 /* upworktestext Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CAB28FDB2AE2489100035A97 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = CAB28F9E2AE2489000035A97 /* Main.html */; };
+		CAB28FDC2AE2489100035A97 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = CAB28F9E2AE2489000035A97 /* Main.html */; };
+		CAB28FDD2AE2489100035A97 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FA02AE2489000035A97 /* Icon.png */; };
+		CAB28FDE2AE2489100035A97 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FA02AE2489000035A97 /* Icon.png */; };
+		CAB28FDF2AE2489100035A97 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FA12AE2489000035A97 /* Style.css */; };
+		CAB28FE02AE2489100035A97 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FA12AE2489000035A97 /* Style.css */; };
+		CAB28FE12AE2489100035A97 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FA22AE2489000035A97 /* Script.js */; };
+		CAB28FE22AE2489100035A97 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FA22AE2489000035A97 /* Script.js */; };
+		CAB28FE32AE2489100035A97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB28FA32AE2489000035A97 /* ViewController.swift */; };
+		CAB28FE42AE2489100035A97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB28FA32AE2489000035A97 /* ViewController.swift */; };
+		CAB28FE52AE2489100035A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FA42AE2489100035A97 /* Assets.xcassets */; };
+		CAB28FE62AE2489100035A97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FA42AE2489100035A97 /* Assets.xcassets */; };
+		CAB28FE72AE2489100035A97 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB28FA62AE2489100035A97 /* SafariWebExtensionHandler.swift */; };
+		CAB28FE82AE2489100035A97 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB28FA62AE2489100035A97 /* SafariWebExtensionHandler.swift */; };
+		CAB290042AE2489200035A97 /* service-worker-loader.js in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FFA2AE2489200035A97 /* service-worker-loader.js */; };
+		CAB290052AE2489200035A97 /* devtools.html in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FFB2AE2489200035A97 /* devtools.html */; };
+		CAB290062AE2489200035A97 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FFC2AE2489200035A97 /* popup.html */; };
+		CAB290072AE2489200035A97 /* newtab.html in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FFD2AE2489200035A97 /* newtab.html */; };
+		CAB290082AE2489200035A97 /* img in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FFE2AE2489200035A97 /* img */; };
+		CAB290092AE2489200035A97 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FFF2AE2489200035A97 /* icons */; };
+		CAB2900A2AE2489200035A97 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CAB290002AE2489200035A97 /* manifest.json */; };
+		CAB2900B2AE2489200035A97 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = CAB290012AE2489200035A97 /* options.html */; };
+		CAB2900C2AE2489200035A97 /* sidepanel.html in Resources */ = {isa = PBXBuildFile; fileRef = CAB290022AE2489200035A97 /* sidepanel.html */; };
+		CAB2900D2AE2489200035A97 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = CAB290032AE2489200035A97 /* assets */; };
+		CAB2900E2AE2489200035A97 /* service-worker-loader.js in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FFA2AE2489200035A97 /* service-worker-loader.js */; };
+		CAB2900F2AE2489200035A97 /* devtools.html in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FFB2AE2489200035A97 /* devtools.html */; };
+		CAB290102AE2489200035A97 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FFC2AE2489200035A97 /* popup.html */; };
+		CAB290112AE2489200035A97 /* newtab.html in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FFD2AE2489200035A97 /* newtab.html */; };
+		CAB290122AE2489200035A97 /* img in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FFE2AE2489200035A97 /* img */; };
+		CAB290132AE2489200035A97 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = CAB28FFF2AE2489200035A97 /* icons */; };
+		CAB290142AE2489200035A97 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CAB290002AE2489200035A97 /* manifest.json */; };
+		CAB290152AE2489200035A97 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = CAB290012AE2489200035A97 /* options.html */; };
+		CAB290162AE2489200035A97 /* sidepanel.html in Resources */ = {isa = PBXBuildFile; fileRef = CAB290022AE2489200035A97 /* sidepanel.html */; };
+		CAB290172AE2489200035A97 /* assets in Resources */ = {isa = PBXBuildFile; fileRef = CAB290032AE2489200035A97 /* assets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAB28FCC2AE2489100035A97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB28F982AE2489000035A97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB28FC92AE2489100035A97;
+			remoteInfo = "upworktestext Extension (iOS)";
+		};
+		CAB28FD62AE2489100035A97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB28F982AE2489000035A97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB28FD32AE2489100035A97;
+			remoteInfo = "upworktestext Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CAB28FEE2AE2489100035A97 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CAB28FCB2AE2489100035A97 /* upworktestext Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB28FF52AE2489100035A97 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CAB28FD52AE2489100035A97 /* upworktestext Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CAB28F9F2AE2489000035A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		CAB28FA02AE2489000035A97 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CAB28FA12AE2489000035A97 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		CAB28FA22AE2489000035A97 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		CAB28FA32AE2489000035A97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAB28FA42AE2489100035A97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAB28FA62AE2489100035A97 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		CAB28FAB2AE2489100035A97 /* upworktestext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = upworktestext.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB28FAE2AE2489100035A97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAB28FB02AE2489100035A97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAB28FB32AE2489100035A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAB28FB62AE2489100035A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAB28FB82AE2489100035A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB28FBD2AE2489100035A97 /* upworktestext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = upworktestext.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB28FBF2AE2489100035A97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAB28FC22AE2489100035A97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAB28FC42AE2489100035A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB28FC52AE2489100035A97 /* upworktestext.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = upworktestext.entitlements; sourceTree = "<group>"; };
+		CAB28FCA2AE2489100035A97 /* upworktestext Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "upworktestext Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB28FCF2AE2489100035A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB28FD42AE2489100035A97 /* upworktestext Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "upworktestext Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB28FD92AE2489100035A97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB28FDA2AE2489100035A97 /* upworktestext.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = upworktestext.entitlements; sourceTree = "<group>"; };
+		CAB28FFA2AE2489200035A97 /* service-worker-loader.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "service-worker-loader.js"; path = "Resources/service-worker-loader.js"; sourceTree = "<group>"; };
+		CAB28FFB2AE2489200035A97 /* devtools.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = devtools.html; path = Resources/devtools.html; sourceTree = "<group>"; };
+		CAB28FFC2AE2489200035A97 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		CAB28FFD2AE2489200035A97 /* newtab.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = newtab.html; path = Resources/newtab.html; sourceTree = "<group>"; };
+		CAB28FFE2AE2489200035A97 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = Resources/img; sourceTree = "<group>"; };
+		CAB28FFF2AE2489200035A97 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
+		CAB290002AE2489200035A97 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		CAB290012AE2489200035A97 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = Resources/options.html; sourceTree = "<group>"; };
+		CAB290022AE2489200035A97 /* sidepanel.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = sidepanel.html; path = Resources/sidepanel.html; sourceTree = "<group>"; };
+		CAB290032AE2489200035A97 /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = assets; path = Resources/assets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB28FA82AE2489100035A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB28FBA2AE2489100035A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB28FC72AE2489100035A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB28FD12AE2489100035A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAB28F972AE2489000035A97 = {
+			isa = PBXGroup;
+			children = (
+				CAB28F9C2AE2489000035A97 /* Shared (App) */,
+				CAB28FA52AE2489100035A97 /* Shared (Extension) */,
+				CAB28FAD2AE2489100035A97 /* iOS (App) */,
+				CAB28FBE2AE2489100035A97 /* macOS (App) */,
+				CAB28FCE2AE2489100035A97 /* iOS (Extension) */,
+				CAB28FD82AE2489100035A97 /* macOS (Extension) */,
+				CAB28FAC2AE2489100035A97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB28F9C2AE2489000035A97 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CAB28FA32AE2489000035A97 /* ViewController.swift */,
+				CAB28FA42AE2489100035A97 /* Assets.xcassets */,
+				CAB28F9D2AE2489000035A97 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		CAB28F9D2AE2489000035A97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAB28F9E2AE2489000035A97 /* Main.html */,
+				CAB28FA02AE2489000035A97 /* Icon.png */,
+				CAB28FA12AE2489000035A97 /* Style.css */,
+				CAB28FA22AE2489000035A97 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CAB28FA52AE2489100035A97 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CAB28FF92AE2489200035A97 /* Resources */,
+				CAB28FA62AE2489100035A97 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		CAB28FAC2AE2489100035A97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB28FAB2AE2489100035A97 /* upworktestext.app */,
+				CAB28FBD2AE2489100035A97 /* upworktestext.app */,
+				CAB28FCA2AE2489100035A97 /* upworktestext Extension.appex */,
+				CAB28FD42AE2489100035A97 /* upworktestext Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB28FAD2AE2489100035A97 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CAB28FAE2AE2489100035A97 /* AppDelegate.swift */,
+				CAB28FB02AE2489100035A97 /* SceneDelegate.swift */,
+				CAB28FB22AE2489100035A97 /* LaunchScreen.storyboard */,
+				CAB28FB52AE2489100035A97 /* Main.storyboard */,
+				CAB28FB82AE2489100035A97 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		CAB28FBE2AE2489100035A97 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CAB28FBF2AE2489100035A97 /* AppDelegate.swift */,
+				CAB28FC12AE2489100035A97 /* Main.storyboard */,
+				CAB28FC42AE2489100035A97 /* Info.plist */,
+				CAB28FC52AE2489100035A97 /* upworktestext.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		CAB28FCE2AE2489100035A97 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CAB28FCF2AE2489100035A97 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		CAB28FD82AE2489100035A97 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CAB28FD92AE2489100035A97 /* Info.plist */,
+				CAB28FDA2AE2489100035A97 /* upworktestext.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		CAB28FF92AE2489200035A97 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAB28FFA2AE2489200035A97 /* service-worker-loader.js */,
+				CAB28FFB2AE2489200035A97 /* devtools.html */,
+				CAB28FFC2AE2489200035A97 /* popup.html */,
+				CAB28FFD2AE2489200035A97 /* newtab.html */,
+				CAB28FFE2AE2489200035A97 /* img */,
+				CAB28FFF2AE2489200035A97 /* icons */,
+				CAB290002AE2489200035A97 /* manifest.json */,
+				CAB290012AE2489200035A97 /* options.html */,
+				CAB290022AE2489200035A97 /* sidepanel.html */,
+				CAB290032AE2489200035A97 /* assets */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB28FAA2AE2489100035A97 /* upworktestext (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB28FEF2AE2489100035A97 /* Build configuration list for PBXNativeTarget "upworktestext (iOS)" */;
+			buildPhases = (
+				CAB28FA72AE2489100035A97 /* Sources */,
+				CAB28FA82AE2489100035A97 /* Frameworks */,
+				CAB28FA92AE2489100035A97 /* Resources */,
+				CAB28FEE2AE2489100035A97 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB28FCD2AE2489100035A97 /* PBXTargetDependency */,
+			);
+			name = "upworktestext (iOS)";
+			productName = "upworktestext (iOS)";
+			productReference = CAB28FAB2AE2489100035A97 /* upworktestext.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAB28FBC2AE2489100035A97 /* upworktestext (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB28FF62AE2489100035A97 /* Build configuration list for PBXNativeTarget "upworktestext (macOS)" */;
+			buildPhases = (
+				CAB28FB92AE2489100035A97 /* Sources */,
+				CAB28FBA2AE2489100035A97 /* Frameworks */,
+				CAB28FBB2AE2489100035A97 /* Resources */,
+				CAB28FF52AE2489100035A97 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB28FD72AE2489100035A97 /* PBXTargetDependency */,
+			);
+			name = "upworktestext (macOS)";
+			productName = "upworktestext (macOS)";
+			productReference = CAB28FBD2AE2489100035A97 /* upworktestext.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAB28FC92AE2489100035A97 /* upworktestext Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB28FEB2AE2489100035A97 /* Build configuration list for PBXNativeTarget "upworktestext Extension (iOS)" */;
+			buildPhases = (
+				CAB28FC62AE2489100035A97 /* Sources */,
+				CAB28FC72AE2489100035A97 /* Frameworks */,
+				CAB28FC82AE2489100035A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "upworktestext Extension (iOS)";
+			productName = "upworktestext Extension (iOS)";
+			productReference = CAB28FCA2AE2489100035A97 /* upworktestext Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CAB28FD32AE2489100035A97 /* upworktestext Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB28FF22AE2489100035A97 /* Build configuration list for PBXNativeTarget "upworktestext Extension (macOS)" */;
+			buildPhases = (
+				CAB28FD02AE2489100035A97 /* Sources */,
+				CAB28FD12AE2489100035A97 /* Frameworks */,
+				CAB28FD22AE2489100035A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "upworktestext Extension (macOS)";
+			productName = "upworktestext Extension (macOS)";
+			productReference = CAB28FD42AE2489100035A97 /* upworktestext Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB28F982AE2489000035A97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CAB28FAA2AE2489100035A97 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CAB28FBC2AE2489100035A97 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CAB28FC92AE2489100035A97 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					CAB28FD32AE2489100035A97 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = CAB28F9B2AE2489000035A97 /* Build configuration list for PBXProject "upworktestext" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAB28F972AE2489000035A97;
+			productRefGroup = CAB28FAC2AE2489100035A97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB28FAA2AE2489100035A97 /* upworktestext (iOS) */,
+				CAB28FBC2AE2489100035A97 /* upworktestext (macOS) */,
+				CAB28FC92AE2489100035A97 /* upworktestext Extension (iOS) */,
+				CAB28FD32AE2489100035A97 /* upworktestext Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAB28FA92AE2489100035A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB28FDD2AE2489100035A97 /* Icon.png in Resources */,
+				CAB28FB42AE2489100035A97 /* LaunchScreen.storyboard in Resources */,
+				CAB28FDB2AE2489100035A97 /* Main.html in Resources */,
+				CAB28FE12AE2489100035A97 /* Script.js in Resources */,
+				CAB28FE52AE2489100035A97 /* Assets.xcassets in Resources */,
+				CAB28FB72AE2489100035A97 /* Main.storyboard in Resources */,
+				CAB28FDF2AE2489100035A97 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB28FBB2AE2489100035A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB28FDE2AE2489100035A97 /* Icon.png in Resources */,
+				CAB28FE02AE2489100035A97 /* Style.css in Resources */,
+				CAB28FC32AE2489100035A97 /* Main.storyboard in Resources */,
+				CAB28FE22AE2489100035A97 /* Script.js in Resources */,
+				CAB28FE62AE2489100035A97 /* Assets.xcassets in Resources */,
+				CAB28FDC2AE2489100035A97 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB28FC82AE2489100035A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB290122AE2489200035A97 /* img in Resources */,
+				CAB290142AE2489200035A97 /* manifest.json in Resources */,
+				CAB2900F2AE2489200035A97 /* devtools.html in Resources */,
+				CAB290152AE2489200035A97 /* options.html in Resources */,
+				CAB290102AE2489200035A97 /* popup.html in Resources */,
+				CAB290172AE2489200035A97 /* assets in Resources */,
+				CAB290132AE2489200035A97 /* icons in Resources */,
+				CAB2900E2AE2489200035A97 /* service-worker-loader.js in Resources */,
+				CAB290162AE2489200035A97 /* sidepanel.html in Resources */,
+				CAB290112AE2489200035A97 /* newtab.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB28FD22AE2489100035A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB290082AE2489200035A97 /* img in Resources */,
+				CAB2900A2AE2489200035A97 /* manifest.json in Resources */,
+				CAB290052AE2489200035A97 /* devtools.html in Resources */,
+				CAB2900B2AE2489200035A97 /* options.html in Resources */,
+				CAB290062AE2489200035A97 /* popup.html in Resources */,
+				CAB2900D2AE2489200035A97 /* assets in Resources */,
+				CAB290092AE2489200035A97 /* icons in Resources */,
+				CAB290042AE2489200035A97 /* service-worker-loader.js in Resources */,
+				CAB2900C2AE2489200035A97 /* sidepanel.html in Resources */,
+				CAB290072AE2489200035A97 /* newtab.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB28FA72AE2489100035A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB28FE32AE2489100035A97 /* ViewController.swift in Sources */,
+				CAB28FAF2AE2489100035A97 /* AppDelegate.swift in Sources */,
+				CAB28FB12AE2489100035A97 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB28FB92AE2489100035A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB28FE42AE2489100035A97 /* ViewController.swift in Sources */,
+				CAB28FC02AE2489100035A97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB28FC62AE2489100035A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB28FE72AE2489100035A97 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB28FD02AE2489100035A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB28FE82AE2489100035A97 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAB28FCD2AE2489100035A97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB28FC92AE2489100035A97 /* upworktestext Extension (iOS) */;
+			targetProxy = CAB28FCC2AE2489100035A97 /* PBXContainerItemProxy */;
+		};
+		CAB28FD72AE2489100035A97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB28FD32AE2489100035A97 /* upworktestext Extension (macOS) */;
+			targetProxy = CAB28FD62AE2489100035A97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAB28F9E2AE2489000035A97 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB28F9F2AE2489000035A97 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		CAB28FB22AE2489100035A97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB28FB32AE2489100035A97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CAB28FB52AE2489100035A97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB28FB62AE2489100035A97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAB28FC12AE2489100035A97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB28FC22AE2489100035A97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAB28FE92AE2489100035A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAB28FEA2AE2489100035A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CAB28FEC2AE2489100035A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "upworktestext Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.safari.upworktestext.Extension;
+				PRODUCT_NAME = "upworktestext Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAB28FED2AE2489100035A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "upworktestext Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.safari.upworktestext.Extension;
+				PRODUCT_NAME = "upworktestext Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB28FF02AE2489100035A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = upworktestext;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.safari.upworktestext;
+				PRODUCT_NAME = upworktestext;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAB28FF12AE2489100035A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = upworktestext;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.safari.upworktestext;
+				PRODUCT_NAME = upworktestext;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB28FF32AE2489100035A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/upworktestext.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "upworktestext Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.safari.upworktestext.Extension;
+				PRODUCT_NAME = "upworktestext Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CAB28FF42AE2489100035A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/upworktestext.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "upworktestext Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.safari.upworktestext.Extension;
+				PRODUCT_NAME = "upworktestext Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CAB28FF72AE2489100035A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/upworktestext.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = upworktestext;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.safari.upworktestext;
+				PRODUCT_NAME = upworktestext;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CAB28FF82AE2489100035A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/upworktestext.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = upworktestext;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.safari.upworktestext;
+				PRODUCT_NAME = upworktestext;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB28F9B2AE2489000035A97 /* Build configuration list for PBXProject "upworktestext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB28FE92AE2489100035A97 /* Debug */,
+				CAB28FEA2AE2489100035A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB28FEB2AE2489100035A97 /* Build configuration list for PBXNativeTarget "upworktestext Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB28FEC2AE2489100035A97 /* Debug */,
+				CAB28FED2AE2489100035A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB28FEF2AE2489100035A97 /* Build configuration list for PBXNativeTarget "upworktestext (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB28FF02AE2489100035A97 /* Debug */,
+				CAB28FF12AE2489100035A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB28FF22AE2489100035A97 /* Build configuration list for PBXNativeTarget "upworktestext Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB28FF32AE2489100035A97 /* Debug */,
+				CAB28FF42AE2489100035A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB28FF62AE2489100035A97 /* Build configuration list for PBXNativeTarget "upworktestext (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB28FF72AE2489100035A97 /* Debug */,
+				CAB28FF82AE2489100035A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB28F982AE2489000035A97 /* Project object */;
+}
